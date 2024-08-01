@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/myphoto.png";
+import homeLogo from "../../Assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> React.js, Next.js, Solidity, Rust and Python. </b>
+                <b className="purple"> React.js, Next.js, Solidity, Rust, FunC and Python. </b>
               </i>
               <br />
               <br />
@@ -54,11 +54,11 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={homeLogo} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -95,7 +95,7 @@ function Home2() {
                   <img src="/images/linkedin.png" alt="" width="40px" />
                 </a>
               </li>
-              {/* <li className="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://discord.com/drag.vas88"
                   target="_blank"
@@ -104,10 +104,10 @@ function Home2() {
                 >
                   <img src="/images/discord.png" alt="" width="40px" />
                 </a>
-              </li> */}
+              </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

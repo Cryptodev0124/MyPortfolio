@@ -19,7 +19,7 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} DRAGAVASIC</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        {/* <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -51,7 +51,7 @@ function Footer() {
                 <img src="/images/linkedin1.png" alt="" width="20px" />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
                 href="https://discord.com/drag.vas88"
                 style={{ color: "white" }}
@@ -60,9 +60,9 @@ function Footer() {
               >
                 <img src="/images/discord.png" alt="" width="20px" />
               </a>
-            </li> */}
+            </li>
           </ul>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

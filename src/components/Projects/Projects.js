@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
+import hamster from "../../Assets/Projects/hamster.png";
+import mexcbot from "../../Assets/Projects/mexcbot.png";
 import beliswap from "../../Assets/Projects/beli_swap.png";
 import uniearn from "../../Assets/Projects/uni_earn.png";
 import mvgbridge from "../../Assets/Projects/mvg_bridge.png";
@@ -27,14 +29,23 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={beliswap}
+              imgPath={hamster}
               isBlog={false}
-              title="Belifix Swap"
-              description="A next evolution DeFi exchange on BNB Smart Chain (BSC).
-              The most popular AMM on BSC! Earn BEFX through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! 
-              In this service I will provide you a dex with your customized requirements."
+              title="Hamster Kombat"
+              description="Hamster Kombat is a Telegram tap game. Users get points from tapping, mining and completing tasks and then they get airdrop according to points they got.
+              The game attract more and more potential investors and fans and they invest for your token or ecosystem. The hamster kombat has over 25M players and that will bring great profit for the team sooner or later."
               // ghLink="https://github.com/mylovestar/Beliswap"
-              demoLink="https://beliswap.app/"
+              demoLink="https://t.me/@hamster_kombat_dev_bot"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mexcbot}
+              isBlog={false}
+              title="MEXC Frontend Bot"
+              description="I will build Mexc frontend bot with your custom UI and strategy"
+            // ghLink="https://github.com/mylovestar/Beliswap"
+            // demoLink="https://beliswap.app/"
             />
           </Col>
 
@@ -59,7 +70,7 @@ function Projects() {
               title="MVG Bridge"
               description="MVG Bridge is a bridge for Mad Viking tokens between Vechain and BSC. In this service I will provide you cross chain bridge between evm or other networks."
               // ghLink="https://github.com/mylovestar/Vechain-Bsc_frontend"
-              demoLink="https://mvgbridge.netlify.app/"              
+              demoLink="https://mvgbridge.netlify.app/"
             />
           </Col>
 

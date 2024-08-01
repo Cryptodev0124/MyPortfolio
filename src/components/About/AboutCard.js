@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Dragan Vasic </span>
             from <span className="purple"> Belgrade, Serbia.</span>
             <br />
-            I am currently employed as a software developer at Zvecka.
+            I am currently employed as a blockchain developer at Zvecka.
             <br />
             I have completed Bachelor of Computer Science (BCs) in Computer Engineering at University of Novi Sad.
             <br />
