@@ -14,6 +14,9 @@ import x4capital from "../../Assets/Projects/x4_capital.png";
 import mpdashboard from "../../Assets/Projects/mp_dashboard.png";
 import specterswap from "../../Assets/Projects/specter_swap.png";
 import ethvault from "../../Assets/Projects/ethvault.png";
+import raffle from "../../Assets/Projects/raffle-game.png";
+import tera from "../../Assets/Projects/tera.png";
+import ecat from "../../Assets/Projects/ecat.png";
 
 function Projects() {
   return (
@@ -40,14 +43,56 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={raffle}
+              isBlog={false}
+              title="Raffle Game"
+              description="I will build Raffle, Lottery, Spin and Coin Flip games on Evm, Solana, Tron and Ton. In the IRA Raffle game, 30 tickets are sold per spin. The winner of each round is awarded a prize equal to 90% of the IRA staked by all users in that round."
+            // ghLink="https://github.com/mylovestar/Beliswap"
+            demoLink="https://ira-raffle.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecat}
+              isBlog={false}
+              title="Ecat Mini Game"
+              description="I will build Telegram mini game like Ecat Kombat. Ecat Kombat will airdrop ECAT tokens to users. Please join Ecat Kombat and receive ECAT."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://t.me/@local_game_test_bot"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tera}
+              isBlog={false}
+              title="Terafarm"
+              description="Terafarm is a decentralized application and platform. It is not registered as a broker, dealer, investment advisor, or investment company in the US or any other jurisdiction."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://terafarm.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={mexcbot}
               isBlog={false}
               title="MEXC Frontend Bot"
               description="I will build Mexc frontend bot with your custom UI and strategy"
             // ghLink="https://github.com/mylovestar/Beliswap"
-            // demoLink="https://beliswap.app/"
+            demoLink="https://mexcbot.onrender.com/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ethvault}
+              isBlog={false}
+              title="Rinascimento Money"
+              description="Rinascimento Money is a Vault for USDT, ETH and BTC on Ethereum. In this service I will provide you a Vault with your requirements and custom UI."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://rinascimento.money/"
+            />
+          </Col>
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -129,16 +174,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ethvault}
-              isBlog={false}
-              title="Rinascimento Money"
-              description="Rinascimento Money is a Vault for USDT, ETH and BTC on Ethereum. In this service I will provide you a Vault with your requirements and custom UI."
-              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              demoLink="https://rinascimento.money/"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
