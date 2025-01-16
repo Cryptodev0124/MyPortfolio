@@ -17,6 +17,9 @@ import ethvault from "../../Assets/Projects/ethvault.png";
 import raffle from "../../Assets/Projects/raffle-game.png";
 import tera from "../../Assets/Projects/tera.png";
 import ecat from "../../Assets/Projects/ecat.png";
+import kamabla from "../../Assets/Projects/kamabla.png";
+import telefun from "../../Assets/Projects/telefun.png";
+import aigent from "../../Assets/Projects/ai-gent.png";
 
 function Projects() {
   return (
@@ -32,13 +35,32 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={hamster}
+              imgPath={aigent}
               isBlog={false}
-              title="Hamster Kombat"
-              description="Hamster Kombat is a Telegram tap game. Users get points from tapping, mining and completing tasks and then they get airdrop according to points they got.
-              The game attract more and more potential investors and fans and they invest for your token or ecosystem. The hamster kombat has over 25M players and that will bring great profit for the team sooner or later."
+              title="AI-GENTS"
+              description="AI-GENTS is a project which was forked from Pump.fun using AI. I will create it for a week."
               // ghLink="https://github.com/mylovestar/Beliswap"
-              demoLink="https://t.me/@hamster_kombat_dev_bot"
+              demoLink="https://aigentfun.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kamabla}
+              isBlog={false}
+              title="Kamabla Tap Game"
+              description="This is Telegram mini game like Hamster Kombat. Users who rank in the top 10 will receive prize money in USDT on the Solana network according to their rank."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://t.me/@KTapGamebot"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={telefun}
+              isBlog={false}
+              title="Telefun"
+              description="Telefun is a project which was forked from Pump.fun. I will create it for a week. I can build it as telegram mini app using Hotwallet."
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://telefun-miniapp.onrender.com/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -47,8 +69,8 @@ function Projects() {
               isBlog={false}
               title="Raffle Game"
               description="I will build Raffle, Lottery, Spin and Coin Flip games on Evm, Solana, Tron and Ton. In the IRA Raffle game, 30 tickets are sold per spin. The winner of each round is awarded a prize equal to 90% of the IRA staked by all users in that round."
-            // ghLink="https://github.com/mylovestar/Beliswap"
-            demoLink="https://ira-raffle.netlify.app/"
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://ira-raffle.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -61,6 +83,7 @@ function Projects() {
               demoLink="https://t.me/@local_game_test_bot"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tera}
@@ -77,8 +100,8 @@ function Projects() {
               isBlog={false}
               title="MEXC Frontend Bot"
               description="I will build Mexc frontend bot with your custom UI and strategy"
-            // ghLink="https://github.com/mylovestar/Beliswap"
-            demoLink="https://mexcbot.onrender.com/"
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://mexcbot.onrender.com/"
             />
           </Col>
 
@@ -92,7 +115,6 @@ function Projects() {
               demoLink="https://rinascimento.money/"
             />
           </Col>
-
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -173,7 +195,6 @@ function Projects() {
               demoLink="https://specterswap.netlify.app/#/swap"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

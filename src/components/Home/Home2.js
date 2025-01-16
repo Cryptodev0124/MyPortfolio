@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/ai-gig.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> React.js, Next.js, Solidity, Rust, FunC and Python. </b>
+                <b className="purple"> React.js, Next.js, Solidity, Rust, FunC, Move and Python. </b>
               </i>
               <br />
               <br />
@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Blockchain and AI.
                 </b>
               </i>
               <br />
@@ -54,7 +54,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={homeLogo} className="img-fluid" alt="avatar" />
+              <img src={homeLogo} className="img-fluid" alt="avatar" style={{borderRadius: '24px'}} />
             </Tilt>
           </Col>
         </Row>
