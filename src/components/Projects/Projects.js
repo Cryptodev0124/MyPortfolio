@@ -20,6 +20,11 @@ import ecat from "../../Assets/Projects/ecat.png";
 import kamabla from "../../Assets/Projects/kamabla.png";
 import telefun from "../../Assets/Projects/telefun.png";
 import aigent from "../../Assets/Projects/ai-gent.png";
+import launchpad from "../../Assets/Projects/launchpad.png";
+import bridge from "../../Assets/Projects/bridge.png";
+import staking from "../../Assets/Projects/staking.png";
+import jupiterfork from "../../Assets/Projects/jupiterfork.png";
+import solanabot from "../../Assets/Projects/solanabot.png";
 
 function Projects() {
   return (
@@ -33,6 +38,56 @@ function Projects() {
           Here are a few projects I&apos;ve worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={launchpad}
+              isBlog={false}
+              title="Launchpad on BAGs"
+              description="Launchpad on BAGS lets anyone create tokens with zero-risk early investment, anti-dump mechanics, and built-in rewards for loyal holders with 85% of all fees going back to the community and 15% into buybacks!"
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://launchpad-on-bags.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bridge}
+              isBlog={false}
+              title="TASSHUB BRIDGE"
+              description="This is a TASS HUB token bridge that transfers tokens between Solana and Ethereum mainnet. In this service I will provide you cross chain bridge between evm or other networks."
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://tass-hub-bridge.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={staking}
+              isBlog={false}
+              title="USA TOKEN STAKING"
+              description="USA Token Staking is a staking dapp for USA TOKEN on Solana. In this service I will provide you a staking dapp with your requirements on any networks."
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://usatoken-react-solana-main.onrender.com/dashboard/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jupiterfork}
+              isBlog={false}
+              title="HODL SWAP DEX AGGREGATOR"
+              description="HodI Holdings offers a dynamic suite of decentralized finance tools designed to maximize yield for individuals, businesses, and DAOs on their crypto-asset investments. This is a dex aggregator forked from Jupiter Swap. In this service I will provide you a dex aggregator with your requirements on any networks."
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://hodl-swap.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={solanabot}
+              isBlog={false}
+              title="SOLANA WALLET MANAGEMENT PLATFORM"
+              description="Professional wallet management and trading platform. This is a bot trading platform for Solana tokens. In this service I will provide you a bot trading platform with your requirements on any networks."
+              // ghLink="https://github.com/mylovestar/Beliswap"
+              demoLink="https://app.tradingbotlabs.com/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={aigent}

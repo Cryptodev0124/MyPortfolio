@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/ai-gig.png";
+import homeLogo from "../../Assets/blockchain-gig.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,

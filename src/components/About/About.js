@@ -46,6 +46,7 @@ function About() {
         <Toolstack /> */}
 
         <Github />
+        <div style={{marginBottom: '30px'}}></div>
       </Container>
     </Container>
   );
